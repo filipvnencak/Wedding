@@ -1,0 +1,75 @@
+[
+  {
+    "key": 1,
+    "name": "Filip Vnenčák",
+    "table": "main",
+    "positon": "4"
+  },
+  {
+    "key": 2,
+    "name": "Radka Vnenčáková",
+    "table": "main",
+    "positon": "3"
+  },
+  { "key": 3, "name": "Katka Čekovská", "table": "main", "positon": "2" },
+  {
+    "key": 4,
+    "name": "Peter Ulbrich",
+    "table": "main",
+    "positon": "1"
+  },
+  {
+    "key": 5,
+    "name": "Monika Vnenčáková",
+    "table": "main",
+    "positon": "5"
+  },
+  {
+    "key": 6,
+    "name": "Pter Vnenčák",
+    "table": "main",
+    "positon": "6"
+  },
+  {
+    "key": 7,
+    "name": "Matias Vnenčák",
+    "table": "right",
+    "side": "right",
+    "positon": "1"
+  },
+  {
+    "key": 8,
+    "name": "Timko Vnenčák",
+    "table": "right",
+    "side": "right",
+    "positon": "2"
+  },
+  {
+    "key": 9,
+    "name": "Vlaďka Vnenčáková",
+    "table": "right",
+    "side": "right",
+    "positon": "3"
+  },
+  {
+    "key": 10,
+    "name": "Barbora Vnenčáková",
+    "table": "right",
+    "side": "right",
+    "positon": "4"
+  },
+  {
+    "key": 11,
+    "name": "Miška Vnenčák",
+    "table": "right",
+    "side": "right",
+    "positon": "1"
+  },
+  {
+    "key": 12,
+    "name": "Matias Vnenčák",
+    "table": "right",
+    "side": "right",
+    "positon": "1"
+  }
+]
