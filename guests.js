@@ -1,3 +1,5 @@
-import Guests from "/guests.json" assert { type: "json" };
-
-console.log(Guests);
+async function printJSON() {
+  const response = await fetch("guests.json");
+  const json = await response.json();
+  console.log(json);
+}
