@@ -31,7 +31,7 @@
   },
   {
     "key": 6,
-    "name": "Peqter Vnenčák",
+    "name": "Peter Vnenčák",
     "table": 1,
     "positon": 6
   },
@@ -39,42 +39,78 @@
     "key": 7,
     "name": "Matias Vnenčák",
     "table": 2,
-    "side": "right",
     "positon": 1
   },
   {
     "key": 8,
     "name": "Timko Vnenčák",
     "table": 2,
-    "side": "right",
     "positon": 2
   },
   {
     "key": 9,
     "name": "Vlaďka Vnenčáková",
     "table": 2,
-    "side": "right",
     "positon": 3
   },
   {
     "key": 10,
     "name": "Barbora Vnenčáková",
     "table": 2,
-    "side": "right",
     "positon": 4
   },
   {
     "key": 11,
-    "name": "Miška Vnenčák",
+    "name": "Matias Vnenčák",
     "table": 2,
-    "side": "right",
     "positon": 1
   },
   {
     "key": 12,
-    "name": "Matias Vnenčák",
-    "table": 2,
-    "side": "right",
+    "name": "Miška Čekovská",
+    "table": 3,
+    "positon": 1
+  },
+  {
+    "key": 13,
+    "name": "Vlado Mikolajčík",
+    "table": 3,
     "positon": 2
+  },
+  {
+    "key": 14,
+    "name": "Zuzka Modlová",
+    "table": 3,
+    "positon": 3
+  },
+  {
+    "key": 15,
+    "name": "Partner Zuzka",
+    "table": 3,
+    "positon": 4
+  },
+  {
+    "key": 16,
+    "name": "Katka Kravarriková",
+    "table": 3,
+    "positon": 5
+  },
+  {
+    "key": 17,
+    "name": "Palko Kravarik",
+    "table": 3,
+    "positon": 6
+  },
+  {
+    "key": 18,
+    "name": " ",
+    "table": 3,
+    "positon": 7
+  },
+  {
+    "key": 19,
+    "name": "  ",
+    "table": 3,
+    "positon": 8
   }
 ]
