@@ -19,7 +19,7 @@ var x = setInterval(function () {
     document.getElementById("countDown").innerHTML = " Už sme manželia";
   }
 }, 1000);
-
+// animation on Scroll
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     console.log(entry);
