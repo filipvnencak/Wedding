@@ -12,7 +12,6 @@ fetch("guests.json")
         button.textContent = arr[i].name;
         button.setAttribute("id", arr[i].key);
         button.setAttribute("class", "seatplan");
-        button.setAttribute("onClick", "showText()");
         document.getElementById(x).appendChild(button);
       }
     };

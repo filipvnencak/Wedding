@@ -1,5 +1,5 @@
 div {
-  margin: 30px;
+  margin: 20px;
 }
 .seatplan:hover {
   background-color: rgb(56, 55, 64);
@@ -25,7 +25,7 @@ div {
   background-color: rgb(47, 46, 64);
 }
 .guests {
-  width: 850px;
+  width: 750px;
 }
 
 #left {
