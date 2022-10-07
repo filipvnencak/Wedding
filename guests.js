@@ -16,8 +16,8 @@ fetch("guests.json")
         document.getElementById(x).appendChild(button);
       }
     };
-    renderButtons(table3, "4");
-    renderButtons(table2, "3");
-    renderButtons(table1, "2");
-    renderButtons(mainTable, "1");
+    renderButtons(table3, "right");
+    renderButtons(table2, "center");
+    renderButtons(table1, "left");
+    renderButtons(mainTable, "main");
   });
