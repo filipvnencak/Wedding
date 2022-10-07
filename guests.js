@@ -6,11 +6,6 @@ fetch("guests.json")
     var table2 = json.filter((element) => element.table == 3);
     var table3 = json.filter((element) => element.table == 4);
 
-    json.forEach(function (item) {
-      var li = document.createElement("li");
-      li.textContent = "Meno: " + item.name + ", stôl: " + item.table;
-      ul.appendChild(li);
-    });
     const renderButtons = (arr, x) => {
       for (let i in arr) {
         let button = document.createElement("button");
