@@ -4,20 +4,13 @@ fetch("guests.json")
     var mainTable = json.filter((element) => element.table == 1);
     var table1 = json.filter((element) => element.table == 2);
     var table2 = json.filter((element) => element.table == 3);
-    // var table3 = json.filter((element) => element.table == 4);
-    // var table4 = json.filter((element) => element.table == 5);
-    // var table5 = json.filter((element) => element.table == 6);
-    // var table6 = json.filter((element) => element.table == 7);
-
-    var container = document.querySelector("#main");
-    var ul = document.createElement("ul");
+    var table3 = json.filter((element) => element.table == 4);
 
     json.forEach(function (item) {
       var li = document.createElement("li");
       li.textContent = "Meno: " + item.name + ", stôl: " + item.table;
       ul.appendChild(li);
     });
-
     const renderButtons = (arr, x) => {
       for (let i in arr) {
         let button = document.createElement("button");
@@ -28,14 +21,8 @@ fetch("guests.json")
         document.getElementById(x).appendChild(button);
       }
     };
-    const showText = () => {
-      document.getElementById(json.key);
-      this.style.backgroundColor = "red";
-    };
+    renderButtons(table3, "4");
     renderButtons(table2, "3");
     renderButtons(table1, "2");
     renderButtons(mainTable, "1");
-
-    // container.appendChild(ul);
-    console.log(table2);
   });
