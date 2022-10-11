@@ -1,3 +1,8 @@
+html {
+  display: grid;
+  align-content: center;
+  place-items: center;
+}
 div {
   margin: 20px;
 }
@@ -26,6 +31,7 @@ div {
 }
 .guests {
   width: 750px;
+  align-content: center;
 }
 
 #left {
