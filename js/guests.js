@@ -1,4 +1,4 @@
-fetch("guests.json")
+fetch("../guests.json")
   .then((response) => response.json())
   .then((json) => {
     var mainTable = json.filter((element) => element.table == 1);
