@@ -4,48 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>F&R</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h2>Naša svadba</h2>
-    <p>Nsadasdadad</p>
-    <p>sadasdadd</p>
+    <section class="hidden">
+      <h2 class="title">
+        Radka & <br />
+        Filip
+      </h2>
 
-    <div class="header">
-      <h2>Header</h2>
-    </div>
-
-    <div class="cards">
-      <div class="card">
-        <h3>Stretneme sa na sobaši o 15:00 tu</h3>
+      <img
+        class="both"
+        src="svgs/undraw_love_is_in_the_air_re_lp58.svg"
+        alt="love"
+      />
+    </section>
+    <section class="hidden">
+      <h2 id="date">01 | 07 | 23</h2>
+      <h2 id="countDown"></h2>
+    </section>
+    <section class="hidden">
+      <div class="place">
+        <a href="html/place.html"> <p id="findPlace">Nájdi svoje miesto</p></a>
+        <br />
+        <a href="html/form.html"> <p id="findPlace">Vyplň formulár</p></a>
+      </div>
+    </section>
+    <section class="hidden">
+      <div class="map">
+        <h3>Pred Bohom si povieme svoje ÁNO tu:</h3>
         <iframe
-          style="width: 100%"
           id="gmap_canvas"
           src="https://maps.google.com/maps?q=Kostol%20sv.%20Antona%20pustovn%C3%ADka,%20Hviezdoslavova,%20Spi%C5%A1sk%C3%A1%20Bel%C3%A1&t=&z=13&ie=UTF8&iwloc=&output=embed"
           frameborder="0"
           scrolling="no"
-          marginheight="0"
-          marginwidth="0"
         ></iframe>
       </div>
-      <div class="card">
-        <h3>A hostina bude tu:</h3>
+    </section>
+    <section class="hidden">
+      <div class="map">
+        <h3>A oslávime to spolu tu:</h3>
         <iframe
-          style="width: 100%"
           id="gmap_canvas"
           src="https://maps.google.com/maps?q=Majer%20pod%20lesom%20za%C4%BEubica&t=&z=13&ie=UTF8&iwloc=&output=embed"
           frameborder="0"
           scrolling="no"
-          marginheight="0"
-          marginwidth="0"
         ></iframe>
       </div>
-      <div class="card">
-        <h3>najdi svoje miesto</h3>
-        <input type="text" />
-      </div>
-      >
+      <div class="card"><h3>najdi svoje miesto</h3>
+    <input type="text"></div>>
       <div class="card">card</div>
       <div class="card">card</div>
     </div>
@@ -54,4 +65,5 @@
       <p>Footer</p>
     </div>
   </body>
+  <script defer src="js/script.js"></script>
 </html>

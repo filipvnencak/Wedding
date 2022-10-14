@@ -1,0 +1,128 @@
+html {
+  display: grid;
+  align-content: center;
+  place-items: center;
+}
+* {
+  color: rgb(47, 46, 64);
+  margin-bottom: 10px;
+  font-family: "Pacifico";
+}
+
+body {
+  text-align: center;
+  background-color: #fef6f1;
+}
+section {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 70vh;
+}
+
+iframe {
+  height: 100vh;
+  width: 50vh;
+}
+
+.seatplan {
+  margin: 1px;
+  width: 40px;
+  height: 40px;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.title {
+  font-size: 10vh;
+}
+.header {
+  text-align: center;
+  font-size: 5vh;
+  height: 10vh;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  align-items: center;
+}
+#date {
+  font-size: 10vh;
+  background-color: #147d66;
+  width: 60vh;
+  border-radius: 3vh;
+  margin-top: 30px;
+  float: center;
+}
+#countDown {
+  font-size: 10vh;
+  margin-top: 20vh;
+  float: center;
+}
+.place {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: none;
+  -webkit-transform: translate(-50%, -50%);
+}
+#findPlace {
+  color: #147d66;
+  font-size: 3vh;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+#findPlace:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+#findPlace:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 3px solid;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+.map {
+  font-size: 3vh;
+  padding: 1rem;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  align-items: center;
+}
+#gmap_canvas {
+  width: 70vh;
+  height: 70vh;
+}
+
+@media all and (max-width: 499px) {
+  .both {
+    width: 60vh;
+  }
+  /* html {
+    width: 70vh;
+  } */
+}
+/* @media (min-width: 1000px) {
+}  */
