@@ -22,7 +22,7 @@ section {
 
 iframe {
   height: 100vh;
-  width: 50vh;
+  width: 80vh;
 }
 
 .seatplan {
@@ -119,6 +119,10 @@ iframe {
 @media all and (max-width: 499px) {
   .both {
     width: 60vh;
+  }
+  iframe {
+    height: 100vh;
+    width: 50vh;
   }
   /* html {
     width: 70vh;
