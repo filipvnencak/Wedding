@@ -19,12 +19,39 @@ fetch("../guests.json")
     renderButtons(table2, "center");
     renderButtons(table1, "left");
     renderButtons(mainTable, "main");
+    let arrayofPeople = [];
+    for (let i in json) {
+      arrayofPeople = i.name;
+    }
+    console.log(arrayofPeople);
+    function autocompleteMatch(input) {
+      if (input == "") {
+        return [];
+      }
+      var reg = new RegExp(input);
+      return arrayofPeople.filter(function (term) {
+        if (term.match(reg)) {
+          return term;
+        }
+      });
+    }
+
+    function showResults(val) {
+      res = document.getElementById("result");
+      res.innerHTML = "";
+      let list = "";
+      let terms = autocompleteMatch(val);
+      for (i = 0; i < terms.length; i++) {
+        list += "<li>" + terms[i] + "</li>";
+      }
+      res.innerHTML = "<ul>" + list + "</ul>";
+    }
+    console.log(arrayofPeople);
   });
 
 let chair;
 var myElement = document.getElementById("finder");
 myElement.addEventListener("change", (event) => {
   chair = event.target.value;
-  console.log(chair);
   document.getElementById(chair).classList.add("seatplanShow");
 });

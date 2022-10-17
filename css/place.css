@@ -59,6 +59,7 @@ input {
   border: none;
   padding: 10px;
   border-radius: 15px;
+  text-align: center;
 }
 .btn {
   background-color: transparent;
