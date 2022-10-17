@@ -26,16 +26,5 @@ var myElement = document.getElementById("finder");
 myElement.addEventListener("change", (event) => {
   chair = event.target.value;
   console.log(chair);
-  document.getElementById(chair).className += "Show";
+  document.getElementById(chair).classList.add("seatplanShow");
 });
-
-// const observer = new IntersectionObserver((entries) => {
-//   entries.forEach((entry) => {
-//     if (entry.isIntersecting) {
-//       entry.target.classList.add(".seatplan:hover");
-//     }
-//   });
-// });
-
-// const hiddenElements = document.querySelectorAll(".hidden");
-// hiddenElements.forEach((el) => observer.observe(el));
