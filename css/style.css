@@ -116,6 +116,16 @@ iframe {
   height: 70vh;
 }
 
+#back {
+  float: center;
+  background-color: #147d66;
+  border: none;
+  text-align: center;
+  border-radius: 12px;
+  height: 4vh;
+  width: 10vh;
+  font-size: 2vh;
+}
 @media all and (max-width: 499px) {
   .both {
     width: 60vh;
