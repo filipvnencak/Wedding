@@ -28,6 +28,16 @@ div {
 .seatplan:after {
   background-color: rgb(47, 46, 64);
 }
+.seatplanShow {
+  background-color: rgb(47, 46, 64);
+  border: none;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  width: 80px;
+  height: 50px;
+}
 .guests {
   width: 750px;
   align-content: center;

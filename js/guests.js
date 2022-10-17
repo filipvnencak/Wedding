@@ -10,8 +10,7 @@ fetch("../guests.json")
       for (let i in arr) {
         let button = document.createElement("button");
         button.textContent = arr[i].name;
-        button.setAttribute("id", arr[i].key);
-        button.setAttribute("name", arr[i].name);
+        button.setAttribute("id", arr[i].name);
         button.setAttribute("class", "seatplan");
         document.getElementById(x).appendChild(button);
       }
@@ -27,16 +26,16 @@ var myElement = document.getElementById("finder");
 myElement.addEventListener("change", (event) => {
   chair = event.target.value;
   console.log(chair);
-  document.getElementByName(chair).classList.add(".seatplan:hover");
+  document.getElementById(chair).className += "Show";
 });
 
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add(".seatplan:hover");
-    }
-  });
-});
+// const observer = new IntersectionObserver((entries) => {
+//   entries.forEach((entry) => {
+//     if (entry.isIntersecting) {
+//       entry.target.classList.add(".seatplan:hover");
+//     }
+//   });
+// });
 
-const hiddenElements = document.querySelectorAll(".hidden");
-hiddenElements.forEach((el) => observer.observe(el));
+// const hiddenElements = document.querySelectorAll(".hidden");
+// hiddenElements.forEach((el) => observer.observe(el));
