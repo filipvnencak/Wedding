@@ -23,7 +23,6 @@ fetch("../guests.json")
     for (let i in json) {
       arrayofPeople = i.name;
     }
-    console.log(arrayofPeople);
     function autocompleteMatch(input) {
       if (input == "") {
         return [];
@@ -46,7 +45,6 @@ fetch("../guests.json")
       }
       res.innerHTML = "<ul>" + list + "</ul>";
     }
-    console.log(arrayofPeople);
   });
 
 let chair;
