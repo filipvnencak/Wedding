@@ -126,6 +126,22 @@ iframe {
   width: 10vh;
   font-size: 2vh;
 }
+
+.card {
+  background-color: white;
+  border-radius: 30px;
+  width: 80vh;
+  padding: 10px;
+  box-shadow: 5px 20px 30px rgb(124, 128, 131);
+}
+.cardImg {
+  width: 40vh;
+  border-radius: 20px;
+  margin: 20px;
+  float: left;
+}
+.cardText {
+}
 @media all and (max-width: 499px) {
   .both {
     width: 60vh;
@@ -133,6 +149,15 @@ iframe {
   iframe {
     height: 100vh;
     width: 50vh;
+  }
+  .card {
+    width: 50vh;
+  }
+  .cardImg {
+    display: grid;
+    align-content: center;
+    place-items: center;
+    margin: 30px;
   }
   /* html {
     width: 70vh;
