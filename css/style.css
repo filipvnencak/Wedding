@@ -138,6 +138,7 @@ iframe {
   width: 40vh;
   border-radius: 20px;
   margin: 20px;
+  margin-bottom: 0;
   float: left;
 }
 .cardText {
