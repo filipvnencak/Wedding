@@ -135,11 +135,12 @@ iframe {
   box-shadow: 5px 20px 30px rgb(124, 128, 131);
 }
 .cardImg {
-  width: 40vh;
+  width: 20vh;
   border-radius: 20px;
   margin: 20px;
   margin-bottom: 0;
   float: left;
+  max-height: 40vh;
 }
 .cardText {
 }
@@ -152,13 +153,13 @@ iframe {
     width: 50vh;
   }
   .card {
-    width: 50vh;
+    width: 45vh;
   }
   .cardImg {
     display: grid;
     align-content: center;
     place-items: center;
-    margin: 30px;
+    margin: 10px;
   }
   /* html {
     width: 70vh;
