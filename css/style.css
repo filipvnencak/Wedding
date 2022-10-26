@@ -2,6 +2,14 @@ html {
   display: grid;
   align-content: center;
   place-items: center;
+  width: 100vw;
+  min-width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 * {
   color: rgb(47, 46, 64);
@@ -24,7 +32,13 @@ iframe {
   height: 100vh;
   width: 80vh;
 }
-
+.both {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
 .seatplan {
   margin: 1px;
   width: 40px;
@@ -142,11 +156,11 @@ iframe {
   float: left;
   max-height: 40vh;
 }
-.cardText {
-}
+
 @media all and (max-width: 499px) {
   .both {
     width: 60vh;
+    box-sizing: border-box;
   }
   iframe {
     height: 100vh;
