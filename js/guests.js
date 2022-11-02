@@ -47,6 +47,12 @@ fetch("../guests.json")
     }
   });
 
+var form = document.getElementById("form");
+function handleForm(event) {
+  event.preventDefault();
+}
+form.addEventListener("submit", handleForm);
+
 let chair;
 var myElement = document.getElementById("finder");
 myElement.addEventListener("change", (event) => {
