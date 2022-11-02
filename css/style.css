@@ -148,6 +148,7 @@ iframe {
   width: 80vh;
   padding: 10px;
   box-shadow: 5px 20px 30px rgb(124, 128, 131);
+  min-height: 30vh;
 }
 .cardImg {
   width: 20vh;
