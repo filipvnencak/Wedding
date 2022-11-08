@@ -158,6 +158,11 @@ iframe {
   float: left;
   max-height: 40vh;
 }
+.cardText {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1.5;
+  font-size: larger;
+}
 
 @media all and (max-width: 499px) {
   .both {
