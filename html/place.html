@@ -41,16 +41,14 @@
     <a href="/index.html"><button id="back">R&F</button></a>
     <h1>Nájdi svoje miesto</h1>
 
-    <form id="form" autocomplete="off">
+    <form id="form">
       <input
         id="finder"
         type="search"
         name="q"
         placeholder="Napíš celé svoje meno"
-        onKeyUp="showResults(this.value)"
       />
       <input type="submit" value="Hľadať" />
-      <div id="result"></div>
     </form>
     <div id="main" class="main"></div>
     <div>
@@ -59,6 +57,39 @@
       <div id="center" class="chairs"></div>
       <div id="right" class="chairs"></div>
     </div>
+    <script defer type="module" src="../js/guests.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <!-- <script>
+      $(function () {
+        var availableTags = [
+          "ActionScript",
+          "AppleScript",
+          "Asp",
+          "BASIC",
+          "C",
+          "C++",
+          "Clojure",
+          "COBOL",
+          "ColdFusion",
+          "Erlang",
+          "Fortran",
+          "Groovy",
+          "Haskell",
+          "Java",
+          "JavaScript",
+          "Lisp",
+          "Perl",
+          "PHP",
+          "Python",
+          "Ruby",
+          "Scala",
+          "Scheme",
+        ];
+        $("#finder").autocomplete({
+          source: availableTags,
+        });
+      });
+    </script> -->
   </body>
-  <script defer type="module" src="../js/guests.js"></script>
 </html>
