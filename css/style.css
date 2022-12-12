@@ -163,7 +163,21 @@ iframe {
   line-height: 1.5;
   font-size: larger;
 }
-
+.cards {
+  display: flex;
+}
+.smallcard {
+  margin: 1vh;
+  background-color: white;
+  border-radius: 30px;
+  width: 40vh;
+  padding: 10px;
+  box-shadow: 5px 20px 30px rgb(124, 128, 131);
+  min-height: 30vh;
+}
+.smallcard:nth-child(2) {
+  float: right;
+}
 @media all and (max-width: 499px) {
   .both {
     width: 60vh;
@@ -182,6 +196,13 @@ iframe {
     place-items: center;
     margin: 10px;
   }
+  .cards {
+    display: block;
+  }
+  /* .smallcard {
+    float: right;
+  } */
+
   /* html {
     width: 70vh;
   } */
