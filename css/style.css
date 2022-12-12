@@ -165,6 +165,7 @@ iframe {
 }
 .cards {
   display: flex;
+  width: 80vh;
 }
 .smallcard {
   margin: 1vh;
@@ -198,6 +199,7 @@ iframe {
   }
   .cards {
     display: block;
+    width: 45vh;
   }
   /* .smallcard {
     float: right;
