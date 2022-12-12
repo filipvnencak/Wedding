@@ -89,7 +89,7 @@ iframe {
   transform: none;
   -webkit-transform: translate(-50%, -50%);
 }
-#findPlace {
+#link {
   color: #147d66;
   font-size: 3vh;
   text-decoration: none;
@@ -97,12 +97,12 @@ iframe {
   position: relative;
 }
 
-#findPlace:hover:after {
+#link:hover:after {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
-#findPlace:after {
+#link:after {
   content: "";
   position: absolute;
   left: 0;
